@@ -1,8 +1,26 @@
 {% extends 'base.html'%}
 
 {% block content %}
+
+    <style>
+    .testing{
+        background-color: blueviolet;
+        height: 48px;
+        width: 48px;
+        margin: 1.5rem;
+        border-radius: .5rem;
+    }
+    </style>
+
     <div style="height: 40rem; background-color: aliceblue; border-radius: 2rem; margin: 2rem;">
-    <h2>HE</h2>
+    <h2>Hi</h2>
+
+    <div class="testing" div style="display : block">block</div>
+    <div class="testing" div style="display : inline">inline</div>
+    <div class="testing" div style="display : inline-block">inline-block</div>
+    <div class="testing" div style="display : none">none</div>
+    <div class="testing"></div>
+
 </div>
 
 {% endblock %}
