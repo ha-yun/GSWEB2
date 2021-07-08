@@ -6,9 +6,12 @@
     <h2>Hi</h2>
     <form action="/accounts/ha_world/"method="post">
         {% csrf_token %}
+        <input type="text" name="hello_world_input">
         <input class="btn btn-info rounded-pill px-3 py-3" type="submit">
     </form>
-    <h3>{{ text }}</h3>
+    {% if hello_world_output %}
+    <h3>{{ hello_world_output.text }}</h3>
+    {% endif %}
     </div>
 
 {% endblock %}
