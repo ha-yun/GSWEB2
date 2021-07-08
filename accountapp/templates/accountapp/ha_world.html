@@ -6,10 +6,9 @@
     <h2>Hi</h2>
     <form action="/accounts/ha_world/"method="post">
         {% csrf_token %}
-        <input class="btn btn-info rounded-pill px-3 py-3" type="button">
+        <input class="btn btn-info rounded-pill px-3 py-3" type="submit">
     </form>
     <h3>{{ text }}</h3>
-
-</div>
+    </div>
 
 {% endblock %}

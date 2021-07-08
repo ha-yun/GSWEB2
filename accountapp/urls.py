@@ -4,5 +4,5 @@ from accountapp.views import ha_world
 
 app_name='accountapp'
 urlpatterns = [
-    path('ha_world',ha_world,name="ha_world"),
+    path('ha_world/',ha_world,name="ha_world"),
 ]
