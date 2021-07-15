@@ -1,6 +1,6 @@
 <div style="text-align: center;">
     <div class="pragmatic_header_logo">
-        <h1>WHAT</h1>
+        <h1>WOW</h1>
     </div>
     <div class="pragmatic_header_button">
         <span>nav1</span>
@@ -17,6 +17,11 @@
             </a>
         </span>
         {% else %}
+        <span>
+            <a href="{% url 'accountapp:detail' pk=user.pk %}">
+                Mypage
+            </a>
+        </span>
         <span>
             <a href="{% url 'accountapp:logout' %}">
                 Logout
