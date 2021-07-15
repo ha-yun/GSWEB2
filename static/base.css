@@ -15,3 +15,8 @@
     font-family: 'Otomanopee One', sans-serif;;
 
 }
+
+.mw-500{
+    max-width: 500px;
+    padding: 1rem 1.5rem;
+}
