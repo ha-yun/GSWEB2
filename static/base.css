@@ -29,3 +29,13 @@
 .NNS_B{
     font-family: "NanumSquareB",cursive;
 }
+.round-button{
+    color: chartreuse;
+    text-decoration: none;
+    box-shadow: 0 0 3px darkcyan;
+    border-radius: 10rem;
+    padding: .3rem;
+}
+.round-button:hover{
+    color: crimson;
+}
