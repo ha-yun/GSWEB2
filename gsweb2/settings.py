@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+from django.contrib import messages
 from django.urls import reverse_lazy
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -161,3 +162,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = reverse_lazy('accountapp:ha_world')
 
 LOGOUT_REDIRECT_URL = reverse_lazy('accountapp:login')
+
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}
