@@ -84,3 +84,6 @@ __pycache__/
 media/
 
 staticfiles/
+
+ha_gcp
+ha_gcp.pub
