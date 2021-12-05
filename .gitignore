@@ -72,7 +72,6 @@ fabric.properties
 
 venv/
 
-.env
 
 db.sqlite3
 
@@ -81,9 +80,3 @@ db.sqlite3
 __pycache__/
 /db_backup.sqlite3
 
-media/
-
-staticfiles/
-
-ha_gcp
-ha_gcp.pub
